@@ -19,7 +19,6 @@ class MahasiswaController extends Controller
                         ->orWhereHas('jurusan', function($query) use($keyword) {
                             $query->where('nama_jur', 'LIKE', '%'.$keyword.'%');
                         })->get();
-        // $mahasiswa = Mahasiswa::with('jurusan')->get();
         return view('mahasiswa.index', ['mahasiswas' => $mahasiswa]);
     }
 

@@ -15,11 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/home', function () {
-    return view('home');
+Route::get('/', function () {
+    return view('dashboard');
 });
 
 // MAHASISWA
@@ -32,9 +29,6 @@ Route::delete('/mahasiswa-destroy/{id}', [MahasiswaController::class, 'destroy']
 
 
 // JURUSAN
-Route::get('/', function () {
-    return view('dashboard');
-});
 Route::get('/jurusan', [JurusanController::class, 'index']);
 Route::get('/jurusan-add', [JurusanController::class, 'create']);
 Route::post('/jurusan', [JurusanController::class, 'store']);

@@ -24,7 +24,7 @@
     <aside id="default-sidebar"
         class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar">
-        <div class="h-full px-3 py-4 overflow-y-auto bg-purple-500 shadow-purple-500" style="box-shadow: 1px 2px 3px;">
+        <div class="h-full px-3 py-4 overflow-y-auto  shadow-purple-500" style="box-shadow: 1px 2px 3px rgba(168, 85, 247, 0.5);">
             <ul class="space-y-2 font-medium">
                 <li>
                     <a href="/"

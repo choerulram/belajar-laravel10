@@ -3,7 +3,7 @@
 
 @section('content')
     <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-        <div class="relative overflow-x-auto shadow-md sm:rounded-lg" style="box-shadow: 1px 2px 3px;">
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg" style="box-shadow: 4px 8px 12px rgba(168, 85, 247, 0.5);">
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
                     Data Jurusan
